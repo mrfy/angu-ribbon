@@ -2,6 +2,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "allowJs": true,
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
@@ -16,10 +17,13 @@
     "importHelpers": true,
     "target": "es2017",
     "module": "es2020",
-    "lib": [
-      "es2018",
-      "dom"
-    ]
+    "noImplicitAny": false,
+    "lib": ["es2018", "dom"]
+    // "paths": {
+    //   "@synapstry/ribbon-wc": [
+    //     "node_modules/@synapstry/ribbon-wc/dist/synapstry-ribbon.es.js"
+    //   ]
+    // }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+
+.toolTip {
+    position: absolute;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px 0;
+    pointer-events: none;
+  }
+  .toolTip > p {
+    color: red;
+    text-align: left;
+    padding: 1px;
+    margin: 1px 10px 1px 10px;
+  }
+  
+  .ribbon-container[data-v-233e17fa] {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    max-width: 100%;
+    margin: 100px auto;
+    padding: 0 20px;
+  }
+  .ribbon[data-v-233e17fa] {
+    /* important for responsiveness */
+    display: block;
+    fill: none;
+    stroke: none;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    width: -webkit-fill-available;
+  }
+  

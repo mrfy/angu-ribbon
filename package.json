@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 4211",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -18,8 +18,13 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
+    "@synapstry/ribbon-wc": "^1.2.14",
+    "@vaadin/vaadin-button": "^21.0.1",
+    "@vaadin/vaadin-grid": "^21.0.1",
+    "@vaadin/vaadin-text-field": "^21.0.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
+    "vue": "^2.6.14",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
